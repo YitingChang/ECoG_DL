@@ -24,7 +24,7 @@ We employed the EEG Net framework, which utilizes a convolutional neural network
 ### Recurrent neural network (RNN)
 The RNN model takes 60 inputs and consists of 3 hidden layers, each with a size of 256. Training for one hundred epochs with a learning rate of 0.00001 resulted in a final training loss of 0.0074.
 
-### CNN vs RNN
+## CNN vs RNN
 If the disparity between the true and predicted cursor positions is less than 10% of the screen's length or width, it is deemed correct.
 
 Here are the performance metrics:
